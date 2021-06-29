@@ -87,6 +87,7 @@ function fiveNumbers(n){
          auxVar += n[4]
          return `${currentPhrase} and ${threeNumbers(auxVar)}`
       }
+      return currentPhrase
    }
 }
 

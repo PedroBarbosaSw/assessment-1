@@ -47,6 +47,9 @@ describe('get number', () => {
    it('describe number 9999', () => {
       DescribeNumber.describe('9999').should.be.equal('nine thousand and nine hundred and ninety-nine')
    })
+   it('describe number 10000', () => {
+      DescribeNumber.describe('10000').should.be.equal('ten thousand')
+   })
    it('describe number 17999', () => {
       DescribeNumber.describe('17999').should.be.equal('seventeen thousand and nine hundred and ninety-nine')
    })
